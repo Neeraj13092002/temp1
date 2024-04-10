@@ -22,8 +22,6 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
 
-    - name: Compile Java
+    - name: Build Java
       run: javac pgm1.java
 
-    - name: Run Java Program
-      run: java pgm1
